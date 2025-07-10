@@ -103,6 +103,7 @@ body {
     font-size: 24px;
     font-weight: 100;
     color: #8d8e98;
+    
 }
 .sec2-col2{
     background-image: url(/assets/wc-mini.png);
@@ -112,7 +113,7 @@ body {
 }
 /* section 3 */
 .sec3{
-    height: 306px;
+    height: 206px;
     width: 1140px;
     text-align: center;
     margin-top:105px;
@@ -132,6 +133,20 @@ body {
 }
 .sec3-items{
     display: flex;
-    margin-top: 40px;
-    align-items: normal;
+    margin-top: 40px;    
+    justify-content: space-around;
+}
+.sec3-item-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0;
+    padding: 0;
+}
+.sec3-item-para{
+ font-size: 24px;
+    font-weight: 100;
+    color: #8d8e98;
+    margin: 0;
+    padding: 0;
 }
