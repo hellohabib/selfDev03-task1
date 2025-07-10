@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f8ff;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+/* Shared items */
+.primary-color{
+    background-color: #4E47FF;
+}
+/* Header  */
+.header{
+    background-image: url(/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    align-items: center;
+}
+/* Nav design */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px 0 160px
+    
+}
+.nav-logo{
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;  
+    text-align: justify;
+    margin: 150px;
+}
+.nav-btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;
+    margin: 150px;
+}
+.main{
+    margin: 0 150px 0 160px
+}
+/* Section 1 */
+.sec1{
+    height: 237px;
+    width: 950px;
+    text-align: center;
+    margin-top:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 150ox;
+
+    }
+.sec1-title{
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+}
+.sec1-btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;    
+}
+/* Section 2 */
+.sec2{
+    display: flex;
+    justify-content: space-between;
+}
+.sec2-col1{
+    height: 203px;
+    width: 517px;;
+}
+.sec2-col1-title{
+    font-weight: bold;
+    font-size: 42;
+}
+.sec2-col1-para{
+    font-size: 24px;
+    font-weight: 100;
+    color: #8d8e98;
+}
+.sec2-col2{
+    background-image: url(/assets/wc-mini.png);
+    height: 328px;
+    width: 403px;
+    border-radius: 30px;
+}
+/* section 3 */
+.sec3{
+    height: 306px;
+    width: 1140px;
+    text-align: center;
+    margin-top:105px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 150ox;
+    background-color: #e5e7ff;
+    border: none;
+    border-radius: 20px;
+    padding: 50px 140px;
+    
+}
+.sec3-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+.sec3-items{
+    display: flex;
+    margin-top: 40px;
+    align-items: normal;
+}
