@@ -150,3 +150,70 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Section 4 */
+.sec4{
+    margin-top:105px;
+}
+.sec4-title{
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+}
+.sec4-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  background-color: #fafcff;
+  border-radius: 10px;
+  height: 243px;
+  width: 366px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.sec4-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.c-rating{
+    background-image: url(/assets/icon-star.png);
+    height: 20px;
+    width: 20px;
+    background-image: url(/assets/icon-star.png);
+    height: 20px;
+    width: 20px;
+    background-image: url(/assets/icon-star.png);
+    height: 20px;
+    width: 20px;
+    background-image: url(/assets/icon-star.png);
+    height: 20px;
+    width: 20px;
+    background-image: url(/assets/icon-star.png);
+    height: 20px;
+    width: 20px;
+    background-repeat: repeat;
+}
+.c-title{
+    font-weight: 600;
+    font-size: 25px;
+}
+.c-para{
+    font-size: 24px;
+    font-weight: 100;
+    color: #8d8e98;
+    margin: 0;
+    padding: 0;
+}
+.c-reviwer{
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    margin-top: 20px;
+}
+.rev-pic{
+    background-image: url(/assets/avatar.png);
+    margin-right: 30px;
+    height: 50px;
+    width: 50px;
+}
